@@ -1,0 +1,19 @@
+7, 3, 5, 8, 2, 9, 4, 15, 6] dizisinin Selection Sort algoritması kullanılarak ilk 4 adımı:
+
+Adım 1: [2, 3, 5, 8, 7, 9, 4, 15, 6]
+İlk adımda, dizinin en küçük elemanı olan 2'yi bulup dizinin başına yerleştiriyoruz. 
+Dizi içindeki minimum elemanı bulmak için tüm elemanları tek tek karşılaştırıyoruz ve 2'yi başa yerleştiriyoruz.
+
+Adım 2: [2, 3, 5, 8, 7, 9, 4, 15, 6]
+İkinci adımda, dizinin ikinci en küçük elemanını bulup ikinci sıraya yerleştiriyoruz. 
+Dizi içindeki minimum elemanı bulmak için kalan elemanları karşılaştırıyoruz ve 3'ü ikinci sıraya yerleştiriyoruz.
+
+Adım 3: [2, 3, 4, 8, 7, 9, 5, 15, 6]
+Üçüncü adımda, dizinin üçüncü en küçük elemanını bulup üçüncü sıraya yerleştiriyoruz. 
+Dizi içindeki minimum elemanı bulmak için kalan elemanları karşılaştırıyoruz ve 4'ü üçüncü sıraya yerleştiriyoruz.
+
+Adım 4: [2, 3, 4, 5, 7, 9, 8, 15, 6]
+Dördüncü adımda, dizinin dördüncü en küçük elemanını bulup dördüncü sıraya yerleştiriyoruz. 
+Dizi içindeki minimum elemanı bulmak için kalan elemanları karşılaştırıyoruz ve 5'i dördüncü sıraya yerleştiriyoruz.
+
+Bu şekilde, [7, 3, 5, 8, 2, 9, 4, 15, 6] dizisinin Selection Sort ile ilk 4 adımını tamamlamış oluyoruz.
