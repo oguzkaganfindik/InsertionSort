@@ -1,9 +1,15 @@
 [22, 27, 16, 2, 18, 6] 
 
-Best case (en iyi durum): Aradığımız sayının dizinin en başında olması durumunda, Insertion Sort algoritması karşılaştırma yapmadan direkt olarak 18 sayısını bulacak ve bu durumda Time Complexity O(1) olacaktır. Ancak, verilen dizide 18 sayısı dizinin en başında olmadığı için bu durum Best case'e uymamaktadır.
+Best case (en iyi durum): Aradığımız sayının dizinin en başında olması durumunda, Insertion Sort algoritması
+karşılaştırma yapmadan direkt olarak 18 sayısını bulacak ve bu durumda Time Complexity O(1) olacaktır.
+Ancak, verilen dizide 18 sayısı dizinin en başında olmadığı için bu durum Best case'e uymamaktadır.
 
-Average case (ortalama durum): Aradığımız sayının ortada olması durumunda, Insertion Sort algoritması yaklaşık olarak n/2 karşılaştırma yaparak 18 sayısını bulacaktır. Bu durumda, ortalama Time Complexity O(n/2) olarak ifade edilebilir. Daha sonra bu ifadeyi sadeleştirirsek, O(n) olarak yazabiliriz.
+Average case (ortalama durum): Aradığımız sayının ortada olması durumunda, Insertion Sort algoritması
+yaklaşık olarak n/2 karşılaştırma yaparak 18 sayısını bulacaktır. Bu durumda, ortalama Time Complexity
+O(n/2) olarak ifade edilebilir. Daha sonra bu ifadeyi sadeleştirirsek, O(n) olarak yazabiliriz.
 
-Worst case (en kötü durum): Aradığımız sayının sonda olması durumunda, Insertion Sort algoritması dizinin tüm elemanlarıyla karşılaştırma yapacak ve en sonunda 18 sayısını bulacaktır. Bu durumda, Time Complexity O(n) olacaktır.
+Worst case (en kötü durum): Aradığımız sayının sonda olması durumunda, Insertion Sort algoritması dizinin
+tüm elemanlarıyla karşılaştırma yapacak ve en sonunda 18 sayısını bulacaktır. Bu durumda, Time Complexity O(n) olacaktır.
 
-Sonuç olarak, [22, 27, 16, 2, 18, 6] dizisinin Insertion Sort ile sıralanmasından sonra 18 sayısı ortalama ve en kötü durumda O(n) Time Complexity'ye sahip olacaktır.
+Sonuç olarak, [22, 27, 16, 2, 18, 6] dizisinin Insertion Sort ile sıralanmasından sonra 18 sayısı
+ortalama ve en kötü durumda O(n) Time Complexity'ye sahip olacaktır.
