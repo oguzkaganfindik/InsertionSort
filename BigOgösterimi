@@ -1,15 +1,22 @@
-Big-O gösterimi, bir algoritmanın çalışma süresini ve performansını büyük bir giriş boyutuna (n) göre ifade eden bir notation sistemidir. Algoritmanın zaman karmaşıklığını analiz etmek ve algoritma performansını karşılaştırmak için kullanılır.
+* Big-O gösterimi, bir algoritmanın çalışma süresini ve performansını büyük bir giriş boyutuna (n) göre ifade eden bir notation sistemidir. 
+Algoritmanın zaman karmaşıklığını analiz etmek ve algoritma performansını karşılaştırmak için kullanılır.
 
-Big-O gösterimi, algoritmanın çalışma süresinin en kötü durumda (worst case) ne kadar arttığını temsil eder. Big-O gösterimi, algoritmanın çalışma süresinin, giriş boyutuna (n) göre nasıl büyüdüğünü ve algoritmanın verimliliğini belirlemek için kullanılır.
+* Big-O gösterimi, algoritmanın çalışma süresinin en kötü durumda (worst case) ne kadar arttığını temsil eder. 
+Big-O gösterimi, algoritmanın çalışma süresinin, giriş boyutuna (n) göre nasıl büyüdüğünü ve algoritmanın verimliliğini belirlemek için kullanılır.
 
-Örneğin, bir algoritmanın Big-O gösterimi O(n) ise, algoritmanın çalışma süresi giriş boyutuyla doğrusal olarak artar. Eğer Big-O gösterimi O(n^2) ise, algoritmanın çalışma süresi giriş boyutunun karesiyle orantılı olarak artar.
+* Örneğin, bir algoritmanın Big-O gösterimi O(n) ise, algoritmanın çalışma süresi giriş boyutuyla doğrusal olarak artar. 
+Eğer Big-O gösterimi O(n^2) ise, algoritmanın çalışma süresi giriş boyutunun karesiyle orantılı olarak artar.
 
-Big-O gösterimi, algoritma analizi ve tasarımıyla ilgilenenler için önemli bir kavramdır. Algoritmaların verimliliklerini karşılaştırmak, optimize etmek ve performanslarını tahmin etmek için kullanılır.
+* Big-O gösterimi, algoritma analizi ve tasarımıyla ilgilenenler için önemli bir kavramdır. 
+Algoritmaların verimliliklerini karşılaştırmak, optimize etmek ve performanslarını tahmin etmek için kullanılır.
 
-[22, 27, 16, 2, 18, 6] dizisi için Insertion Sort algoritması kullanıldığında, en kötü durumda ve ortalama durumda O(n^2) zaman karmaşıklığına sahip olduğunu biliyoruz.
+* [22, 27, 16, 2, 18, 6] dizisi için Insertion Sort algoritması kullanıldığında, 
+en kötü durumda ve ortalama durumda O(n^2) zaman karmaşıklığına sahip olduğunu biliyoruz.
 
-Insertion Sort algoritması, her elemanı sıralanmış bölgenin sonuna yerleştirmek için sıralanmış bölgedeki tüm elemanların karşılaştırılmasını gerektirir. Bu durumda, dizi elemanlarının sayısı (n) kadar karşılaştırma ve yer değiştirme işlemi yapılması gerekecektir.
+Insertion Sort algoritması, her elemanı sıralanmış bölgenin sonuna yerleştirmek için sıralanmış bölgedeki tüm elemanların karşılaştırılmasını gerektirir. 
+* Bu durumda, dizi elemanlarının sayısı (n) kadar karşılaştırma ve yer değiştirme işlemi yapılması gerekecektir.
 
-Bu nedenle, [22, 27, 16, 2, 18, 6] dizisi için Big-O gösterimi O(n^2) olacaktır. Bu, dizinin boyutuna (n) bağlı olarak çalışma süresinin karesel olarak artacağını gösterir.
+* Bu nedenle, [22, 27, 16, 2, 18, 6] dizisi için Big-O gösterimi O(n^2) olacaktır. 
+Bu, dizinin boyutuna (n) bağlı olarak çalışma süresinin karesel olarak artacağını gösterir.
 
 Özetle, [22, 27, 16, 2, 18, 6] dizisi için Insertion Sort algoritması için Big-O gösterimi O(n^2) olarak ifade edilir.
